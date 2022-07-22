@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'SFPROREGULAR';
+    src: url(../fontes/SFPRODISPLAYREGULAR.OTF);
+}
+@font-face {
+    font-family: 'SFPROBOLD';
+    src: url(../fontes/SFPRODISPLAYBOLD.OTF);
+}
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+}
+.box {
+    height: 710px;
+    width: 600px;
+    display: inline-block;
+}
+article {
+    display: inline-block;
+}
+.logo {
+    position: absolute;
+    top: 35px;
+    left: 625px;
+}
+h1 {
+    color: #e7e9ea;
+    display: inline-block;
+    position: absolute;
+    top: 94px;
+    font-size: 68px;
+    font-family: 'SFPROBOLD';
+    left: 645px;
+}
+h3 {
+    color: #e7e9ea;
+    display: inline-block;
+    position: absolute;
+    top: 240px;
+    font-size: 36px;
+    font-family: 'SFPROBOLD';
+    left: 645px;
+}
+.logins {
+    position: absolute;
+    display: inline-block;
+    bottom: 100px;
+    left: 641px;
+    width: 310px;
+    height: 210px;
+    
+}
+input {
+    font-family:sans-serif;
+    
+}
+#igoogle {
+    border-radius: 35px;
+    width: 295px;
+    height: 45px;
+    border: none;
+    background-color: white;
+    background-image: url("../imagens/google.png");
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: 52px;
+    font-family: 'SFPROBOLD';
+    position: absolute;
+    top: -10px;
+}
+#iapple {
+    width: 295px;
+    height: 45px;
+    border-radius: 35px;
+    position: absolute;
+    top: 46px;
+    background: url("../imagens/apple.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    border: none;
+    background-position: 52px;
+    background-size: 16px;
+    font-family: 'SFPROBOLD';
+}
+.apple {
+    position: absolute;
+    top: 62px;
+    height: 22px;
+    width: 22px;
+    display: inline-block;
+    left: 40px
+}
+#icel {
+    width: 295px;
+    height: 45px;
+    border-radius: 35px;
+    position: absolute;
+    top: 121px;
+    background-color: #1d9bf0;
+    color: white;
+    font-size: 15px;
+    font-family: 'SFPROBOLD';
+}
+.lefthr {
+    width: 130px;
+    position: absolute;
+    top: 97px;
+    left: 4px;;
+    border-bottom: 1px solid #2f3336;
+    color: transparent;
+}
+.righthr {
+    width: 130px;
+    position: absolute;
+    top: 97px;
+    left: 160px;
+    border-bottom: 1px solid #2f3336;
+    color: transparent;
+}
+.ou {
+    position: absolute;
+    top: 83px;
+    left: 140px;
+    color: #e7e9ea;
+    font-family: 'SFPROREGULAR';
+    font-size: 14px;
+}
+p {
+    color: gray;
+    font-size: 11px;
+    position: absolute;
+    display: inline-block;
+    bottom: 3px;
+    left: 7px;
+    font-family: 'SFPROREGULAR';
+    JUSTIFY-CONTENT: center;
+}
+h4 {
+    font-family: 'SFPROBOLD';
+    color: white;
+    position: absolute;
+    display: inline-block;
+    top: 0px;
+    margin: 0px;
+}
+.cadastrado {
+    position: absolute;
+    bottom: -10px;
+    width: 310px;
+    height: 90px;
+    left: 645px;
+}
+#icadastrado {
+    width: 295px;
+    height: 45px;
+    border-radius: 35px;
+    position: absolute;
+    background-color: transparent;
+    color: #1d9bf0;
+    font-family: 'SFPROBOLD';
+    border: 1px solid #4e5e6a;
+    bottom: 15px;
+    font-size: 16px;
+}
